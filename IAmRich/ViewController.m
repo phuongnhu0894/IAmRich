@@ -19,6 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.pictureImageview.alpha = 0;
+    self.textLabel.alpha = 0;
+    
+}
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     [UIView animateWithDuration:5 animations:^{
         self.pictureImageview.alpha = 1;
     } completion:^(BOOL finished) {
@@ -28,8 +34,7 @@
             [self.view layoutIfNeeded];
         }];
     }];
-    
-    
+
 }
 
 

@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleAspectFit" image="ruby.png" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-E5-YKq">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ruby.png" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-E5-YKq">
                                 <rect key="frame" x="172" y="120" width="257" height="251"/>
                                 <animations/>
                                 <constraints>
@@ -24,7 +24,7 @@
                                     <constraint firstAttribute="height" constant="251" id="v6M-uq-et3"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What the hell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eN-uq-5a3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What the hell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eN-uq-5a3">
                                 <rect key="frame" x="63" y="771" width="475" height="77"/>
                                 <animations/>
                                 <constraints>
