@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleAspectFit" image="ruby.png" translatesAutoresizingMaskIntoConstraints="NO" id="P7g-E5-YKq">
+                                <rect key="frame" x="172" y="120" width="257" height="251"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="tS3-NW-3lW"/>
+                                    <constraint firstAttribute="height" constant="251" id="v6M-uq-et3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What the hell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eN-uq-5a3">
+                                <rect key="frame" x="63" y="771" width="475" height="77"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="dZf-Y7-hfk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="P7g-E5-YKq" secondAttribute="trailing" constant="171" id="3sh-rx-7sB"/>
+                            <constraint firstItem="P7g-E5-YKq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="172" id="Ebb-Bz-JGW"/>
+                            <constraint firstItem="P7g-E5-YKq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="MvJ-to-AYt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="P7g-E5-YKq" secondAttribute="bottom" constant="290" id="Nfj-bI-Vu7"/>
+                            <constraint firstItem="P7g-E5-YKq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="172" id="TLb-sn-9Fq"/>
+                            <constraint firstAttribute="trailing" secondItem="3eN-uq-5a3" secondAttribute="trailing" constant="62" id="WhN-Qc-TGI"/>
+                            <constraint firstItem="P7g-E5-YKq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aZO-Sn-JSF"/>
+                            <constraint firstItem="3eN-uq-5a3" firstAttribute="top" secondItem="P7g-E5-YKq" secondAttribute="bottom" constant="400" id="iIH-3Q-hwi"/>
+                            <constraint firstItem="3eN-uq-5a3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="63" id="ohQ-VI-tBC"/>
+                            <constraint firstAttribute="trailing" secondItem="P7g-E5-YKq" secondAttribute="trailing" constant="171" id="pUB-W6-qfR"/>
+                            <constraint firstItem="3eN-uq-5a3" firstAttribute="top" secondItem="P7g-E5-YKq" secondAttribute="bottom" constant="100" id="z0V-Hi-D6N"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3sh-rx-7sB"/>
+                                <exclude reference="Ebb-Bz-JGW"/>
+                                <exclude reference="TLb-sn-9Fq"/>
+                                <exclude reference="pUB-W6-qfR"/>
+                                <exclude reference="Nfj-bI-Vu7"/>
+                                <exclude reference="z0V-Hi-D6N"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pictureImageview" destination="P7g-E5-YKq" id="xDS-9L-OAl"/>
+                        <outlet property="textLabel" destination="3eN-uq-5a3" id="THA-1G-XxQ"/>
+                        <outlet property="topConstraint" destination="iIH-3Q-hwi" id="K8A-U2-L5u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307" y="366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ruby.png" width="257" height="251"/>
+    </resources>
+</document>
